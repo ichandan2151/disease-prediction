@@ -13,16 +13,16 @@ parkinsons_model = pickle.load(open("C:/Users/chand/OneDrive/Desktop/project/spy
 bcancer_model = pickle.load(open("C:/Users/chand/OneDrive/Desktop/project/spy/models/breast_cancer_model.sav", "rb"))
 #sidebar
 
-with st.sidebar:
+# with st.sidebar:
     
-    selected = option_menu('Multiple Disease Prediction System',
+#     selected = option_menu('Multiple Disease Prediction System',
                           
-                          ['Diabetes Prediction',
-                           'Heart Disease Prediction',
-                           'Parkinsons Prediction',
-                           'Breast Cancer Prediction'],
-                          icons=['activity','heart','person','heart'],
-                          default_index=0)
+#                           ['Diabetes Prediction',
+#                            'Heart Disease Prediction',
+#                            'Parkinsons Prediction',
+#                            'Breast Cancer Prediction'],
+#                           icons=['activity','heart','person','heart'],
+#                           default_index=0)
     
     
 # Diabetes Prediction Page
